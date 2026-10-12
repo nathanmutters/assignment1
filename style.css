@@ -1,22 +1,31 @@
-h1{
-  text-weight: bold;
+.sal h1{
+    color: red;
+    font-size: 48px;
 }
-.sal{
-  color: red;
-  text-size: 32px;
+
+.jj h1{
+    color: darkred;
+    font-size: 48px;
 }
-.jj{
-  color: red;
-  text-size: 32px;
+
+.compare h1{
+    color: blue;
+    font-size: 48px;
 }
-.compare{
-  color: red;
-  text-size: 32px;
+
+.picture h1{
+    color: green;
+    font-size: 48px;
 }
-.title{
-  text-weight: bold;
-  text-size: 48px;
+.sal p{
+    font-size: 24px;
 }
-p{
-  text-size: 16px;
+.jj p{
+    font-size: 24px;
+}
+.compare p{
+    font-size: 24px;
+}
+.picture p{
+    font-size: 24px;
 }
