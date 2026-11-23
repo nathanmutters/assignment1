@@ -1,31 +1,86 @@
-.sal h1{
-    color: red;
-    font-size: 48px;
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
 }
 
-.jj h1{
+h1.jj {
     color: darkred;
-    font-size: 48px;
 }
 
-.compare h1{
+h1.compare {
     color: blue;
-    font-size: 48px;
 }
 
-.picture h1{
+h1.picture {
     color: green;
-    font-size: 48px;
 }
-.sal p{
-    font-size: 24px;
+
+p.sal,
+p.jj,
+p.compare {
+    font-size: 20px;
 }
-.jj p{
-    font-size: 24px;
+
+.player-image {
+    display: block;
+    width: 200px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
 }
-.compare p{
-    font-size: 24px;
+
+@media (max-width: 600px) {
+    body {
+        padding: 12px;
+    }
+
+    section {
+        padding: 16px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    p.sal,
+    p.jj,
+    p.compare {
+        font-size: 18px;
+    }
 }
-.picture p{
-    font-size: 24px;
+
+
+body {
+    background-color: #f4f4f4;
+    color: #222;
+    transition: 0.3s;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+body.dark-mode section {
+    background-color: #252525;
+    color: white;
+}
+
+#themeButton {
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+}
+
+body.dark-mode #themeButton {
+    background-color: white;
+    color: black;
 }
